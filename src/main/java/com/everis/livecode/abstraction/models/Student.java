@@ -34,4 +34,9 @@ public class Student {
 		this.birthDate = birthDate;
 	}
 
+	@Override
+	public String toString() {
+		return firstName ;
+	}
+
 }

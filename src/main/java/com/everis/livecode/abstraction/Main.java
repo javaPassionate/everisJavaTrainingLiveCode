@@ -15,6 +15,7 @@ public class Main {
 		List<Object> studentList = new ArrayList<Object>();
 		Student student = new Student("Mohammed", new Date());
 		studentList.add(student);
+		
 		List<Object> dtoList = studentTransformer.toDTOList(studentList);
 		StudentDTO dto = (StudentDTO) dtoList.get(0);
 
